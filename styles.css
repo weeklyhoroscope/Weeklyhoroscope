@@ -1,0 +1,305 @@
+@import url('https://fonts.googleapis.com/css2?family=Handlee&family=Nabla&display=swap');
+
+header,
+div,
+body {
+    display: block;
+    font-family: sans-serif;
+    padding: 10px;
+
+}
+
+body {
+    background-color: blue;
+    width: 69%;
+    margin: 0 auto;
+    background-image: url(9872ae224eee1f80fba21e260dcd9386.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+header {
+    background-color: #ff00eb;
+    background: linear-gradient(45deg, #ff00eb, rgba(30, 203, 203, 0.85));
+    text-align: center;
+    border-radius: 90px 0px 50px 80px;
+    margin: 50px 0px 30px 0px;
+    height: 250px;
+    box-shadow: 10px 10px #00ff31;
+}
+
+#bgstars {
+    position: absolute;
+    z-index: -1;
+    height: 1800px;
+    width: 100%;
+    top: 10%;
+    left: 0%;
+}
+
+#headerstars {
+    position: absolute;
+    height: 200px;
+    z-index: 0;
+    top: 2%;
+    
+}
+
+#headerstars2 {
+    position: absolute;
+    height: 200px;
+    z-index: 0;
+    top: 2%;
+    left: 12%;
+}
+
+#weeklytext {
+    width: auto;
+    float: left;
+    position: absolute;
+    top: 13%;
+    /* Move the image 50% down from the top of its containing element */
+    left: 37%;
+    /* Move the image 50% from the left of its containing element */
+    transform: translate(-50%, -47%);
+    z-index: 1;
+
+}
+
+#horoscopetxt {
+    position: absolute;
+    top: 25%;
+    /* Move the image 50% down from the top of its containing element */
+    left: 50%;
+    /* Move the image 50% from the left of its containing element */
+    transform: translate(-50%, -50%);
+    z-index: 0;
+
+
+}
+
+#aside {
+    float: left;
+    width: 32%;
+    margin-right: 20px;
+    margin-left: 40px;
+    padding: 10px;
+}
+
+#aside2 {
+    float: left;
+    width: 30%;
+    margin-right: 20px;
+    margin-left: 40px;
+    padding: 10px;
+    transform: translate(3%, -110%);
+    text-align: center;
+    outline-style: dotted;
+    outline-width: 10px;
+    outline-color: #27ff00;
+
+
+}
+
+#aside2 p {
+    font-family: monospace;
+
+
+}
+
+#adleft {
+    float: left;
+    width: 10%;
+    position: absolute;
+    top: 130%;
+    left: 6%;
+    transform: translate(-50%, -50%);
+
+}
+
+#adright {
+    float: right;
+    width: 10%;
+    position: absolute;
+    top: 100%;
+    right: -4.5%;
+    transform: translate(-70%, -10%);
+
+}
+
+#adleft img {
+    margin-bottom: 80px;
+
+}
+
+#adright img {
+    margin-bottom: 250px;
+}
+
+#madame, #banner2 {
+    padding: 10px;
+    margin: 50px;
+    height: 300px;
+}
+
+#madameimg, #banner2 {
+    width: 100%;
+    height: 100%;
+
+
+}
+
+
+#aside ul {
+    padding: 10px;
+    line-height: 4;
+    font-size: 22px;
+    text-align: right;
+    outline-style: dotted;
+    outline-width: 10px;
+    outline-color: #27ff00;
+
+}
+
+#aside ul a {
+    text-decoration: none;
+    outline-style: double;
+    outline-width: thick;
+    outline-color: #ffc400;
+    border-width: 10px;
+    border-color: #ff00eb;
+    border-style: groove;
+    text-shadow: 0px 0px 5px rgba(31, 96, 91, 0.97);
+    color: #fff;
+    font-family: 'Handlee', cursive;
+}
+
+
+#main-content {
+    background-color: aqua;
+    background: radial-gradient(circle, purple, rgba(0, 0, 255, 0.46));
+    margin-left: 20px;
+    border-radius: 100px 5px;
+    height: 1100px;
+
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    /* Adjust the gap between buttons as needed */
+    justify-content: center;
+    /* Center the grid horizontally */
+    align-items: center;
+    /* Center the grid vertically */
+}
+
+button {
+    padding: 10px 20px;
+    /* Adjust button padding as needed */
+    font-size: 25px;
+    line-height: 1.5;
+    color: #fff;
+    background-color: transparent;
+    border-width: 10px;
+    border-color: rgba(3, 253, 253, 0.85);
+    font-family: monospace;
+    cursor: pointer;
+}
+
+.popup {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    /* Semi-transparent background */
+    z-index: 1;
+}
+
+/* Style the popup content */
+.popup-content {
+    background: radial-gradient(circle, white, #f87eea);
+    padding: 20px;
+    width: 60%;
+    max-width: 600px;
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 30px;
+    border-width: 10px;
+    border-color: lawngreen;
+    border-style: double;
+
+}
+
+.popup-content img {
+    position: absolute;
+    top: -68%;
+    left: 17%;
+    
+    
+}
+
+#sticker {
+    top: 40%;
+    left: -10%;
+    height: 100px;
+}
+
+#sticker2 {
+    top: 83%;
+    left: 70%;
+    height: 250px;
+}
+
+.popup-content p {
+    color: black;
+    font-size: 25pt;
+}
+
+/* Style the close button (×) */
+.close-popup {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+p {
+    color: #fff;
+    font-size: 16px;
+    font-family: monospace;
+    text-align: center;
+
+}
+
+h1 {
+    font-size: 50pt;
+    color: #ffc400;
+    font-family: 'Handlee', cursive;
+    font-style: italic;
+    text-align: center;
+    margin-top: 100px;
+    text-shadow: 5px 5px 5px
+}
+
+#aside2 h1 {
+    margin: 0;
+    font-size: 40pt;
+    color: #ffc400;
+    font-family: 'Handlee', cursive;
+    font-style: italic;
+    text-align: center;
+    text-shadow: 5px 5px 5px;
+    
+}
