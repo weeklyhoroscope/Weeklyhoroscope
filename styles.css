@@ -111,21 +111,19 @@ header {
 
 #adleft {
     float: left;
-    width: 10%;
+    width: 16%;
     position: absolute;
-    top: 130%;
-    left: 6%;
-    transform: translate(-50%, -50%);
+    left: 0%;
+    top: 80%;
+    
 
 }
 
 #adright {
     float: right;
-    width: 10%;
     position: absolute;
-    top: 100%;
-    right: -4.5%;
-    transform: translate(-70%, -10%);
+    right: 0%;
+    width: 15%;
 
 }
 
@@ -135,7 +133,8 @@ header {
 }
 
 #adright img {
-    margin-bottom: 250px;
+    margin-bottom: 350px;
+    margin-top: 100px;
 }
 
 #madame, #banner2 {
